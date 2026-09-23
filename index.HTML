@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Pribadi</title>
+    <style>
+        /* Atur tampilan dasar supaya enak dilihat */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f4f8;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        /* Gaya khusus sesuai kebutuhan */
+        .karya {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .karya img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halo, Saya [Emila] 👋</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#karya">Karya Saya</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Saya seorang [profesi/keahlian], suka membuat portofolio web dan belajar hal baru setiap hari. Mari jelajahi karya saya! 😊</p>
+    </section>
+    <section id="karya">
+        <h2>Karya Saya</h2>
+        <div class="karya">
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Karya 1" />
+                <p>Deskripsi Karya 1</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Karya 2" />
+                <p>Deskripsi Karya 2</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/300x200" alt="Karya 3" />
+                <p>Deskripsi Karya 3</p>
+            </div>
+        </div>
+    </section>
+    <section id="kontak">
+        <h2>Kontak Saya</h2>
+        <p>Hubungi saya melalui email: <a href="mailto:namamu@email.com">namamu@email.com</a></p>
+        <p>Atauikuti media sosial saya:</p>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
